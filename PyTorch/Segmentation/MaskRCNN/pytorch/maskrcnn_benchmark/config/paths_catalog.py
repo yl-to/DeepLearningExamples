@@ -5,7 +5,7 @@ import os
 
 
 class DatasetCatalog(object):
-    DATA_DIR = "/opt/ml/input/data/train"
+    DATA_DIR = "/opt/ml/input/data/training"
     DATASETS = {
         "coco_2017_train": {
             "img_dir": "train2017",
